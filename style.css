@@ -1,0 +1,134 @@
+/* GENEL */
+body {
+  background-color: #1e1e1e;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Drum kit alanı */
+.drum-kit {
+  margin-top: 60px;
+}
+
+/* ORTAK DRUM BUTON STİLİ */
+.drum {
+  width: 110px;
+  height: 110px;
+  margin: 12px;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+
+  color: #1e1e1e;
+
+  transition: all 0.12s ease;
+}
+
+/* Hover efekti */
+.drum:hover {
+  transform: translateY(-3px);
+}
+
+/* AKTİF (BASILAN) TUŞ */
+.pressed {
+  transform: translateY(4px);
+  opacity: 0.95;
+}
+
+/* 🎨 RENKLİ DRUM'LAR */
+.kick {
+  background: linear-gradient(145deg, #ff7675, #d63031);
+  box-shadow: 0 8px 0 #a71d2a;
+}
+
+.snare {
+  background: linear-gradient(145deg, #74b9ff, #0984e3);
+  box-shadow: 0 8px 0 #0652a5;
+}
+
+.tom {
+  background: linear-gradient(145deg, #55efc4, #00b894);
+  box-shadow: 0 8px 0 #008c6a;
+}
+
+.clap {
+  background: linear-gradient(145deg, #ffeaa7, #fdcb6e);
+  box-shadow: 0 8px 0 #cfa62f;
+}
+
+.hihat {
+  background: linear-gradient(145deg, #a29bfe, #6c5ce7);
+  box-shadow: 0 8px 0 #4834d4;
+}
+
+.crash {
+  background: linear-gradient(145deg, #fab1a0, #e17055);
+  box-shadow: 0 8px 0 #b04a32;
+}
+
+.ride {
+  background: linear-gradient(145deg, #05ffd1, #00cec9);
+  box-shadow: 0 8px 0 #009b96;
+}
+.boom {
+  background: linear-gradient(145deg, #09eb20, #00cec9);
+  box-shadow: 0 8px 0 #009b96;
+}
+.openhat {
+  background: linear-gradient(145deg, #000000, #00cec9);
+  box-shadow: 0 8px 0 #009b96;
+}
+.tink {
+  background: linear-gradient(145deg, #4a0701, #00cec9);
+  box-shadow: 0 8px 0 #009b96;
+}
+
+/* ✨ AKTİF TUŞ GLOW (RENKLİ) */
+.kick.pressed {
+  border: 3px solid #ff7675;
+  box-shadow: 0 0 30px #ff7675;
+}
+
+.snare.pressed {
+  border: 3px solid #74b9ff;
+  box-shadow: 0 0 30px #74b9ff;
+}
+
+.tom.pressed {
+  border: 3px solid #55efc4;
+  box-shadow: 0 0 30px #55efc4;
+}
+
+.clap.pressed {
+  border: 3px solid #ffeaa7;
+  box-shadow: 0 0 30px #ffeaa7;
+}
+
+.hihat.pressed {
+  border: 3px solid #a29bfe;
+  box-shadow: 0 0 30px #a29bfe;
+}
+
+.crash.pressed {
+  border: 3px solid #fab1a0;
+  box-shadow: 0 0 30px #fab1a0;
+}
+
+.ride.pressed {
+  border: 3px solid #81ecec;
+  box-shadow: 0 0 30px #81ecec;
+}
+.boom.pressed {
+  border: 3px solid #689485;
+  box-shadow: 0 0 30px #689485;
+}
+.openhat.pressed {
+  border: 3px solid #bb3590;
+  box-shadow: 0 0 30px #bb3590;
+}
+.tink.pressed {
+  border: 3px solid #05ffd1;
+  box-shadow: 0 0 30px #05ffd1;
+}
